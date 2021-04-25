@@ -8264,6 +8264,9 @@ ul.u-text li:last-child {
     display: none !important;
   }
 }
+.u-invisible {
+  visibility: hidden;
+}
 .u-border-none {
   border-width: 0 !important;
 }
@@ -33677,7 +33680,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -168px auto 60px 722px;
+  margin: -168px -56px 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -33697,28 +33700,16 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -168px;
-    margin-left: 722px;
+    margin-right: -56px;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-menu-1 {
-    margin-left: 553px;
-  }
-}
+
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     width: auto;
   }
+}
 
-  .u-header .u-menu-1 {
-    margin-left: 415px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-menu-1 {
-    margin-left: 261px;
-  }
-}
 .u-footer {
   background-image: none;
 }
